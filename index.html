@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600&amp;display=swap">
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <title>Coffe</title>
+</head>
+
+<body>
+    <header class="site-header" id="id_inicio">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <div class="burger">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <!-- <div class="logo">
+                    <a href="/">
+                        <img class="tamaño-logo" src="img/LOGO.png" alt="logo cafe">
+                    </a>
+                    <p>A fuego lento</p>
+                </div> -->
+                <nav class="navegacion">
+                    <a href="#id_inicio">Inicio</a>
+                    <a href="#id_productos">productos</a>
+                    <a href="#id_noticias">Curiosidades</a>
+                    <a href="#id_formulario">Registrate</a>
+                </nav>
+            </div>
+            <div class="titulo-principal">
+                <h1>El mejor café del mundo, se prepara a fuego lento</h1>
+            </div>
+        </div>
+        <!--contenedor-->
+    </header>
+
+    <section class="banner-promocion">
+        <div>
+
+        </div>
+    </section>
+    <main id="id_productos">
+        <h2 class="titulo-producto contenedor">Nuestros productos:</h2>
+        <div class="producto contenedor">
+            <figure class="producto-imagen">
+                <img src="img/Producto/producto1.jpg" alt="producto 1">
+                <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit.</figcaption>
+            </figure>
+            <figure class="producto-imagen">
+                <img src="img/Producto/producto2.jpg" alt="producto 2">
+                <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit.</figcaption>
+            </figure>
+            <figure class="producto-imagen">
+                <img src="img/Producto/producto3.jpg" alt="producto 3">
+                <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit.</figcaption>
+            </figure>
+            <figure class="producto-imagen">
+                <img src="img/Producto/producto4.jpg" alt="producto 4">
+                <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit.</figcaption>
+            </figure>
+        </div>
+        <div class="modal" id="modal">
+            <div class="internal_modal" id="intModal">
+                <div class="modal_content" id="modalContent">
+                    <div class="close" id="close"><i class="far fa-times-circle"></i></div>
+                    <div class="main_modal">
+                        <figure>
+                            <img src="img/Producto/producto1.jpg" alt="producto 1">
+                        </figure>
+                        <div class="description_modal">
+                            <h3>Nombre del cafe</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste pariatur enim atque exercitationem, sapiente error reiciendis voluptates quas qui consequatur laboriosam voluptatem nesciunt esse, illo sunt vel optio! Aliquam,
+                                error?
+                            </p>
+                            <p class="caracteristicas_modal">Caracteristicas:</p>
+                            <ul class="lista_caracteristicas">
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                            </ul>
+                            <div class="campo_compra">
+                                <div class="codigo_promocional">
+                                    <label for="code">Ingresa aquí tu código promocional: </label>
+                                    <input type="text" id="code" name="codigo-promo">
+                                </div>
+                                <div class="whatsapp">
+                                    <a href="https://web.whatsapp.com/send?phone=573057066856" target="_blank">
+                                        <img class="logo-redes" src="img/whatsapp.svg" alt="WhatsApp"> Escríbenos y adquiere tu producto
+                                    </a>
+                                    <div class="container_precio">
+                                        <p class="precio_anterior"></p>
+                                        <p class="precio">$ <span>10.598</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal_content" id="modalContent">
+                    <div class="close" id="close"><i class="far fa-times-circle"></i></div>
+                    <div class="main_modal">
+                        <figure>
+                            <img src="img/Producto/producto2.jpg" alt="producto 1">
+                        </figure>
+                        <div class="description_modal">
+                            <h3>Nombre del cafe</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste pariatur enim atque exercitationem, sapiente error reiciendis voluptates quas qui consequatur laboriosam voluptatem nesciunt esse, illo sunt vel optio! Aliquam,
+                                error?
+                            </p>
+                            <p class="caracteristicas_modal">Caracteristicas:</p>
+                            <ul class="lista_caracteristicas">
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                            </ul>
+                            <div class="campo_compra">
+                                <div class="codigo_promocional">
+                                    <label for="code">Ingresa aquí tu código promocional: </label>
+                                    <input type="text" id="code" name="codigo-promo">
+                                </div>
+                                <div class="whatsapp">
+                                    <a href="https://web.whatsapp.com/send?phone=573057066856" target="_blank">
+                                        <img class="logo-redes" src="img/whatsapp.svg" alt="WhatsApp"> Escríbenos y adquiere tu producto
+                                    </a>
+                                    <div class="container_precio">
+                                        <p class="precio_anterior"></p>
+                                        <p class="precio">$ <span>20.000</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal_content" id="modalContent">
+                    <div class="close" id="close"><i class="far fa-times-circle"></i></div>
+                    <div class="main_modal">
+                        <figure>
+                            <img src="img/Producto/producto3.jpg" alt="producto 1">
+                        </figure>
+                        <div class="description_modal">
+                            <h3>Nombre del cafe</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste pariatur enim atque exercitationem, sapiente error reiciendis voluptates quas qui consequatur laboriosam voluptatem nesciunt esse, illo sunt vel optio! Aliquam,
+                                error?
+                            </p>
+                            <p class="caracteristicas_modal">Caracteristicas:</p>
+                            <ul class="lista_caracteristicas">
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                            </ul>
+                            <div class="campo_compra">
+                                <div class="codigo_promocional">
+                                    <label for="code">Ingresa aquí tu código promocional: </label>
+                                    <input type="text" id="code" name="codigo-promo">
+                                </div>
+                                <div class="whatsapp">
+                                    <a href="https://web.whatsapp.com/send?phone=573057066856" target="_blank">
+                                        <img class="logo-redes" src="img/whatsapp.svg" alt="WhatsApp"> Escríbenos y adquiere tu producto
+                                    </a>
+                                    <div class="container_precio">
+                                        <p class="precio_anterior"></p>
+                                        <p class="precio">$ <span>30.000</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal_content" id="modalContent">
+                    <div class="close" id="close"><i class="far fa-times-circle"></i></div>
+                    <div class="main_modal">
+                        <figure>
+                            <img src="img/Producto/producto4.jpg" alt="producto 1">
+                        </figure>
+                        <div class="description_modal">
+                            <h3>Nombre del cafe</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste pariatur enim atque exercitationem, sapiente error reiciendis voluptates quas qui consequatur laboriosam voluptatem nesciunt esse, illo sunt vel optio! Aliquam,
+                                error?
+                            </p>
+                            <p class="caracteristicas_modal">Caracteristicas:</p>
+                            <ul class="lista_caracteristicas">
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Lorem ipsum dolor sit amet</li>
+                            </ul>
+                            <div class="campo_compra">
+                                <div class="codigo_promocional">
+                                    <label for="code">Ingresa aquí tu código promocional: </label>
+                                    <input type="text" id="code" name="codigo-promo">
+                                </div>
+                                <div class="whatsapp">
+                                    <a href="https://web.whatsapp.com/send?phone=573057066856" target="_blank">
+                                        <img class="logo-redes" src="img/whatsapp.svg" alt="WhatsApp"> Escríbenos y adquiere tu producto
+                                    </a>
+                                    <div class="container_precio">
+                                        <p class="precio_anterior"></p>
+                                        <p class="precio">$ <span>40.000</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Slider Noticias -->
+    <div class="contenedor swiper-container" id="id_noticias">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="noticia">
+                    <figure class="image-noticia1">
+                        <img src="img/noticia/noticia1.png" alt="noticia">
+                        <figcaption>Tomado de: www.eltiempo.com</figcaption>
+                    </figure>
+                    <div class="descripcion-noticia">
+                        <h3>Claves para ser un experto a la hora de comprar y preparar café</h3>
+                        <p>
+                            A pesar de que Colombia es un país reconocido por producir uno de los mejores cafés del mundo, son muy pocos los que conocen qué se debe tener en cuenta a la preparar una excelente taza de café.
+                            <a href="https://www.eltiempo.com/vida/mujeres/consejos-a-la-hora-de-comprar-y-preparar-cafe-413442" target="_blank"><b>Ver más</b></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="noticia">
+                    <div class="descripcion-noticia">
+                        <h3>¿Cuántas tazas de café son recomendables al día?</h3>
+                        <p>Millones de personas en todo el mundo inician su día con el ritual de una taza de café ...<a href="https://www.elespectador.com/cromos/estilo-de-vida/cuantas-tazas-de-cafe-son-recomendables-al-dia-articulo-920296/" target="_blank"><b>Ver más</b></a>
+                        </p>
+                    </div>
+                    <figure class="image-noticia2">
+                        <img src="img/noticia/noticia2.png" alt="noticia">
+                        <figcaption>Tomado de: www.elespectador.com</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="noticia">
+                    <figure class="image-noticia1">
+                        <img src="img/noticia/noticia1.png" alt="noticia">
+                        <figcaption>Tomado de: www.eltiempo.com</figcaption>
+                    </figure>
+                    <div class="descripcion-noticia">
+                        <h4>Claves para ser un experto a la hora de comprar y preparar café</h4>
+                        <p>
+                            Cada vez es más amplia la oferta de cafés que se encuentran en el mercado. Sin embargo, a pesar de que Colombia es un país reconocido por producir uno de los mejores cafés del mundo, son muy pocos los que conocen qué se debe tener en cuenta a la hora
+                            de comprar y preparar una excelente taza de café.
+                            <a href="https://www.eltiempo.com/vida/mujeres/consejos-a-la-hora-de-comprar-y-preparar-cafe-413442" target="_blank"><b>Ver más</b></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="noticia">
+                    <div class="descripcion-noticia">
+                        <h4>¿Cuántas tazas de café son recomendables al día?</h4>
+                        <p>Millones de personas en todo el mundo inician su día con el ritual de una taza de café, esta bebida sigue llevando por años el estigma de ser mala para la salud de las personas, otros en cambio hablan sobre sus estupendos beneficios,
+                            pero ¿es adecuado o no su consumo? y ¿qué cantidad debemos tomar?
+                            <a href="https://www.elespectador.com/cromos/estilo-de-vida/cuantas-tazas-de-cafe-son-recomendables-al-dia-articulo-920296/" target="_blank"><b>Ver más</b></a>
+                        </p>
+                    </div>
+                    <figure class="image-noticia2">
+                        <img src="img/noticia/noticia2.png" alt="noticia">
+                        <figcaption>Tomado de: www.elespectador.com</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="noticia">
+                    <figure class="image-noticia1">
+                        <img src="img/noticia/noticia1.png" alt="noticia">
+                        <figcaption>Tomado de: www.eltiempo.com</figcaption>
+                    </figure>
+                    <div class="descripcion-noticia">
+                        <h4>Claves para ser un experto a la hora de comprar y preparar café</h4>
+                        <p>
+                            Cada vez es más amplia la oferta de cafés que se encuentran en el mercado. Sin embargo, a pesar de que Colombia es un país reconocido por producir uno de los mejores cafés del mundo, son muy pocos los que conocen qué se debe tener en cuenta a la hora
+                            de comprar y preparar una excelente taza de café.
+                            <a href="https://www.eltiempo.com/vida/mujeres/consejos-a-la-hora-de-comprar-y-preparar-cafe-413442" target="_blank"><b>Ver más</b></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="noticia">
+                    <div class="descripcion-noticia">
+                        <h4>¿Cuántas tazas de café son recomendables al día?</h4>
+                        <p>Millones de personas en todo el mundo inician su día con el ritual de una taza de café, esta bebida sigue llevando por años el estigma de ser mala para la salud de las personas, otros en cambio hablan sobre sus estupendos beneficios,
+                            pero ¿es adecuado o no su consumo? y ¿qué cantidad debemos tomar?
+                            <a href="https://www.elespectador.com/cromos/estilo-de-vida/cuantas-tazas-de-cafe-son-recomendables-al-dia-articulo-920296/" target="_blank"><b>Ver más</b></a>
+                        </p>
+                    </div>
+                    <figure class="image-noticia2">
+                        <img src="img/noticia/noticia2.png" alt="noticia">
+                        <figcaption>Tomado de: www.elespectador.com</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+    <!-- FORMULARIO-->
+    <section class="formulario-fondo" id="id_formulario">
+        <div class="contenedor formulario">
+            <div class="main-formulario">
+                <p class="titulo-formulario">titulo</p>
+                <p class="texto-formulario"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis cumque cupiditate magni saepe quas, veritatis libero autem voluptatum rem beatae facere, accusamus ut fugiat impedit atque. Minima illo esse necessitatibus!</p>
+            </div>
+            <form class="contacto" action="correo.php" method="POST">
+                <fieldset>
+                    <legend>Información Personal</legend>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" placeholder="Tu Nombre">
+
+                    <label for="email">E-mail: </label>
+                    <input type="email" name="email" placeholder="Tu Correo electrónico" required>
+
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" name="telefono" placeholder="Tu Teléfono" required>
+                    <!-- 
+                    <label for="mensaje">Mensaje: </label>
+                    <textarea id="mensaje"></textarea> -->
+
+                    <label for="boton"> Enviar:</label>
+                    <input type="submit" id="boton">
+
+                </fieldset>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="contenedor footer-top">
+            <div class="footer-top-left">
+                <img src="img/LOGO.png" alt="logo cafe">
+            </div>
+            <div class="footer-top-right">
+                <div class="footer-contact">
+                    <p class="titulo">Contactanos:</p>
+                    <p class="letra-footer">Email: aaaaa@aaaaaa.com</p>
+                    <p class="letra-footer">Telefono: 777 7777</p>
+                    <p class="letra-footer">celular: +57 300 123 4567</p>
+
+                </div>
+                <div class="footer-redes">
+                    <p class="titulo">Siguenos:</p>
+                    <a href="www.facebook.com" target="_blank">
+                        <img class="logo-redes" src="img/facebook.svg" alt="Facebook">
+                    </a>
+                    <a href="www.instagram.com" target="_blank">
+                        <img class="logo-redes" src="img/instagram.svg" alt="Instagram">
+                    </a>
+                    <a href="https://web.whatsapp.com/send?phone=573057066856" target="_blank">
+                        <img class="logo-redes" src="img/whatsapp.svg" alt="WhatsApp">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor footer-buttom">
+            <p class="letra-footer"> © Copyright 2020 Different Coffe- </p>
+            <p class="letra-footer"> All Rights Reserved potenciado por:
+                <!-- <img src="ABR-pro.PNG" alt="ABR-pro"> -->
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script defer src="fontawesome-free-5.12.1-web/js/all.js"></script>
+</body>
+
+</html>
